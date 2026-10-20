@@ -6,6 +6,6 @@ public class RechnerTest {
 
     @Test
     void addiereZweiZahlen(){
-        assertEquals(6, new Rechner().addiere(2,3));
+        assertEquals(5, new Rechner().addiere(2,3));
     }
 }
